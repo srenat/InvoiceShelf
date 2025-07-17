@@ -622,6 +622,14 @@ class CurrenciesTableSeeder extends Seeder
                 'thousand_separator' => ',',
                 'decimal_separator' => '.',
             ],
+            [
+                'name' => 'Kazakhstani Tenge',
+                'code' => 'KZT',
+                'symbol' => '₸',
+                'precision' => '2',
+                'thousand_separator' => ',',
+                'decimal_separator' => '.',
+            ],
         ];
 
         foreach ($currencies as $currency) {
